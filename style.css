@@ -1,0 +1,54 @@
+body {
+  background: url(gambar_bacground.jpg);
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.calculator {
+  background: rgb(165, 41, 41);
+  padding: 10px;
+  border-radius: 5px;
+}
+.textview {
+  background: rgb(255, 251, 251);
+
+  width: 253px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+}
+.button {
+  width: 60px;
+  height: 50px;
+  font-size: 20px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px #fdfd;
+}
+.button:hover {
+  box-shadow: 0px 0px 3px black;
+}
+.equal {
+  height: 110px;
+}
+.equal:hover {
+  background: red;
+  color: white;
+}
+.del:hover {
+  background: red;
+  color: white;
+}
+.zero {
+  width: 110px;
+}
